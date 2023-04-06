@@ -14,10 +14,10 @@ Essa solução não só ajudará Breno a ter uma visão mais clara de sua leitur
 
 ## IMPORTANTE
 
-1 - Seu programa deve compilar sem erros ou Warnings.
-2 - Não deve usar variáveis globais.
-3 - Deve estar estruturado em funções.
-4 - Tanto a lista de dias quanto a de livros deve ser do tamanho que o Breno digitar.
-5 - Cada um é responsável por possíveis copias do seu código .
-6 - Todos os itens anteriores causam nota 0.
+1. - Seu programa deve compilar sem erros ou Warnings.
+2. - Não deve usar variáveis globais.
+3. - Deve estar estruturado em funções.
+4. - Tanto a lista de dias quanto a de livros deve ser do tamanho que o Breno digitar.
+5. - Cada um é responsável por possíveis copias do seu código .
+6. - Todos os itens anteriores causam nota 0.
 
