@@ -1,6 +1,4 @@
-# Trabalho Atrasado
-
-## Bosque IFMS
+# Bosque IFMS
 
 O Diretor do campus decidiu transformar o IFMS de Corumbá em um grande bosque. No entanto, para facilitar o processo de mudança, ele solicitou um sistema aos alunos de ADS. 
 
@@ -14,15 +12,15 @@ O programa não deve ter variáveis globais.
 
 Deve haver um menu para cadastrar setores e árvores em um setor, e deve ser possível listar os setores e as árvores em cada setor.
 
-### Setores
-[ x ] - Nome;
-[ x ] - Tamanho (Altura e Largura);
-[   ] - Quantidade de Árvores;
-[ x ] - Quantidade de Construções do Setor;
-[   ] - Listar Árvores Plantadas no Setor;
+## Setores
+- [x] - Nome;
+- [x] - Tamanho (Altura e Largura);
+- [ ] - Quantidade de Árvores;
+- [x] - Quantidade de Construções do Setor;
+- [ ] - Listar Árvores Plantadas no Setor;
 
-### Árvore
-[ x ] - Espécie;
-[   ] - O Porte;
-[ x ] - Ano de Plantio;
-[ x ] - Nome de Quem Plantou.
+## Árvore
+- [x] - Espécie;
+- [ ] - O Porte;
+- [x] - Ano de Plantio;
+- [x] - Nome de Quem Plantou.

@@ -1,4 +1,5 @@
-## Minha biblioteca
+# Minha biblioteca
+
 Imagine que você tem um amigo chamado Breno, que é um leitor ávido e adora passar horas imerso em livros. No entanto, Breno vem enfrentando um problema que o incomoda há algum tempo: ele tem dificuldade em saber quantos livros leu em um determinado mês.
 
 Apesar de ser uma pessoa muito organizada, Breno não conseguia encontrar uma forma eficiente de monitorar sua leitura e, por isso, sempre se sentia frustrado quando tentava fazer uma contagem manual no final do mês.
@@ -11,9 +12,12 @@ Com essas informações em mãos, o programa deve ser capaz de calcular o númer
 
 Essa solução não só ajudará Breno a ter uma visão mais clara de sua leitura, mas também poderá ser útil para outros leitores ávidos que enfrentam problemas semelhantes. Com o programa em mãos, Breno poderá se concentrar em sua leitura sem se preocupar em fazer contas e anotações manuais, tornando sua experiência de leitura ainda mais prazerosa.
 
+## IMPORTANTE
+
 1 - Seu programa deve compilar sem erros ou Warnings.
 2 - Não deve usar variáveis globais.
 3 - Deve estar estruturado em funções.
 4 - Tanto a lista de dias quanto a de livros deve ser do tamanho que o Breno digitar.
 5 - Cada um é responsável por possíveis copias do seu código .
 6 - Todos os itens anteriores causam nota 0.
+
