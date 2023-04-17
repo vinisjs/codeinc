@@ -26,7 +26,6 @@ void createUser(Person *US, Library *Biblioteca[], int *t);
 void createLibrary(Library *Biblioteca[], int *t);
 void menu(Person *US, Library *Biblioteca[], int *t);
 
-void generateReport(Library *Biblioteca, int t);
 void impress(Person *USC, Library *Biblioteca[], int *t);
 
 int main()
@@ -34,12 +33,12 @@ int main()
 
   int t = 1;
   Person Usuario;
-  Library *Biblioteca = malloc(t * sizeof(Library)); // aloca memória para o array
+  Library *Biblioteca = malloc(t * sizeof(Library));
 
   if (Biblioteca == NULL)
-  { // verifica se a alocação foi bem-sucedida
+  {
     printf("Erro na alocação de memória para Biblioteca\n");
-    exit(1); // encerra o programa
+    exit(1);
   }
 
   system("cls");
@@ -90,7 +89,7 @@ void menu(Person *US, Library *Biblioteca[], int *t)
 
 void createLibrary(Library *Biblioteca[], int *t)
 {
-  int i, j, tm, tmb;
+  int i, j, tm;
 
   printf("Cadastro Biblioteca\n\n");
 
@@ -99,28 +98,30 @@ void createLibrary(Library *Biblioteca[], int *t)
 
   printf("\n#Quantos dias de leitura: %d\n", tm);
 
-  printf("\ntempo: %d\n", tm);
-
-  *t = tm;
+  Biblioteca[0] = malloc(tm * sizeof(Library));
 
   for (i = 0; i < tm; i++)
   {
     printf("Digite a data da leitura[%i]: ", i + 1);
-    scanf(" %d", &(*Biblioteca)[i].date);
+    scanf(" %d", &Biblioteca[0][i].date);
 
     printf("Digite a quantidade de livros: ");
-    scanf(" %d", &(*Biblioteca)[i].qnt);
+    scanf(" %d", &Biblioteca[0][i].qnt);
 
-    tmb = (*Biblioteca)[i].qnt;
-    (*Biblioteca)[i].books = malloc(tmb * sizeof(Book));
+    Biblioteca[0][i].books = malloc(Biblioteca[0][i].qnt * sizeof(Book));
+    int tmb = 0;
 
-    for (j = 0; j < tmb; j++)
+    for (j = 0; j < Biblioteca[0][i].qnt; j++)
     {
       printf("Digite o nome do livro[%i]: ", j + 1);
-      scanf(" %[^\n]s", (*Biblioteca)[i].books[j].name);
+      scanf(" %[^\n]s", Biblioteca[0][i].books[j].name);
+      tmb++;
     }
+    Biblioteca[0][i].qnt = tmb;
   }
+  *t = tm;
 }
+
 void impress(Person *USC, Library *Biblioteca[], int *t)
 {
   FILE *file;
@@ -158,36 +159,6 @@ void impress(Person *USC, Library *Biblioteca[], int *t)
   }
 
   fprintf(file, "Obrigado pela utilização do sistema.\n");
-
   fclose(file);
   printf("Relatório salvo com sucesso no arquivo 'file.txt'.\n");
-  generateReport(Biblioteca, t);
-}
-
-void generateReport(Library *Biblioteca, int t)
-{
-  FILE *file;
-  int i, j;
-
-  file = fopen("relatorio.txt", "w");
-  if (file == NULL)
-  {
-    printf("Erro ao abrir arquivo.\n");
-    return;
-  }
-
-  fprintf(file, "RELATÓRIO DE LEITURA\n\n");
-  for (i = 0; i < t; i++)
-  {
-    fprintf(file, "Data da leitura: %d\n", Biblioteca[i].date);
-    fprintf(file, "Quantidade de livros lidos: %d\n", Biblioteca[i].qnt);
-    for (j = 0; j < Biblioteca[i].qnt; j++)
-    {
-      fprintf(file, "Livro %d: %s\n", j + 1, Biblioteca[i].books[j].name);
-    }
-    fprintf(file, "\n");
-  }
-
-  fclose(file);
-  printf("Relatório gerado com sucesso.\n");
 }
