@@ -21,3 +21,14 @@ Essa solução não só ajudará Breno a ter uma visão mais clara de sua leitur
 5. - Cada um é responsável por possíveis copias do seu código .
 6. - Todos os itens anteriores causam nota 0.
 
+## ANÁLISE DE REQUISITOS
+
+[RF] - O sistema de permitir o cadastro de dias, incluindo a data, quantidade de livros e titulo do livro.
+
+[RNF] - Calcular o número total de livros (lidos) no mês.
+
+[RNF] - Identificar o dia em que leu mais e poder listar o título dos livros lidos nesse dia.
+
+- [] - Qual dia leu mais livro.
+- [] - Qual a quantidade que mais leu.
+- [] - Qual o nome dos livros.

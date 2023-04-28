@@ -28,6 +28,21 @@ void menu(Person *US, Library *Biblioteca[], int *t);
 
 void impress(Person *USC, Library *Biblioteca[], int *t);
 
+typedef struct
+{
+  char title[30];
+  int qnt;
+} Book;
+
+typedef struct
+{
+  int date;
+  Book book;
+} Library;
+
+void menu(Library *books);
+void createBook(Library *books);
+
 int main()
 {
 
