@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 typedef struct
 {
@@ -37,6 +38,7 @@ Book get_book_data()
 
 void impress(User user, Book book)
 {
+  system("clear");
   printf("Relatório:\n");
   printf("Usuário:\n");
   printf("Nome: %s\n", user.name);
