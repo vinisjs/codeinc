@@ -4,9 +4,14 @@ O coordenado do curso de ADS que deseja saber como está o desempenho dos alunos
 
 O relatório deverá conter o nome do aluno, sua média e sua situação final, que pode ser aprovado (média maior que 6), em recuperação (média menor que 6) ou reprovado (média menor que 4). Além disso, o relatório deverá informar o número de alunos aprovados, em recuperação e reprovados, bem como a média geral da turma.
 
-Os dados dos alunos serão fornecidos em um arquivo que será passado como parâmetro para o programa(argv). O arquivo terá a seguinte estrutura: na primeira linha, um inteiro com o número de alunos e, nas demais linhas, o nome do aluno em uma linha e sua  na próxima nota. Cada aluno poderá ter até oito notas, dependendo do número de atividades realizadas. A média de cada aluno deverá ser calculada considerando-se o padrão de oito notas. 
+Os dados dos alunos serão fornecidos em um arquivo que será passado como parâmetro para o programa(argv). O arquivo terá a seguinte estrutura: 
+1. Na primeira linha, um inteiro com o número de alunos e, 
+2. Nas demais linhas, o nome do aluno em uma linha e sua  na próxima nota. 
+3. Cada aluno poderá ter até oito notas, 
+4. Dependendo do número de atividades realizadas. 
+5. A média de cada aluno deverá ser calculada considerando-se o padrão de oito notas. 
 
-Com base nessas informações, você deverá desenvolver um programa em linguagem de programação  c que leia o arquivo de entrada e gere o relatório solicitado. Existem dois arquivos  anexos de exemplo para teste.
+Com base nessas informações, você deverá desenvolver um programa em linguagem de programação  c que leia o arquivo de entrada e gere o relatório solicitado. Existem dois arquivos anexos de exemplo para teste.
 
 ## Requisitos
 
