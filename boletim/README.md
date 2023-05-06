@@ -24,3 +24,11 @@ Com base nessas informações, você deverá desenvolver um programa em linguage
 7. A saída deve esta na mesma sequencia do exercício.
 8. Cada um é responsável por possíveis copias do seu código .
 9. Todos os itens anteriores causam nota 0.
+
+## Análise de Requisitos
+- [x] O Programa deve receber o caminho/arquivo na inicialização (argv[])
+- [x] O Programa deve ler o arquivo
+- [x] O Programa deve guardar os dados no "objeto" (struct)
+- [] O Programa deve filtrar os dados: Nome == Nome (Maria != Jose)
+- [] O Programa deve calcular a média e média geral
+- [x] O Programa deve gerar um relatório no fim da execução (boletim)

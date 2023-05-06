@@ -1,2 +1,4 @@
-Name: maria	Score: 4.00
-Name: maria	Score: 5.00
+| Nome | Média das notas |
+|------|----------------|
+| maria | 32.00 |
+| jose | 34.50 |
