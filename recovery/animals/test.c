@@ -109,7 +109,6 @@ void createObjectAnimals(Animals **animal, int *totalInFile, FILE **file, int *i
 
 void readObjectAnimal(Animals **animal, int *totalInFile)
 {
-  system("clear");
   for (int j = 0; j < *totalInFile; j++)
   {
     printf("----- -----\n");

@@ -1,0 +1,17 @@
+-------------------------------------
+----------	 The Relatory 	---------
+-------------------------------------
+
+Nome..: bruno 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: pedro 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: thiago 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: joão 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: lucas 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: mathues 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: lucas 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: bernardo 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: rodrigo 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+Nome..: flavio 	|	Carne..: 1.50kg 	|	Bebida..: 2.00l 	|	Banda..: 50.00 	|	Aluguel..: 70.00 	|
+
+---------------------------------
+Total Carne..: 15.00kg 	|	Total Bebida..: 20.00l 	|	 Total Banda..: 500.00 	|	 Total Aluguel..: 700.00 	|
