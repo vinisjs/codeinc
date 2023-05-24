@@ -1,0 +1,35 @@
+"One Piece"
+900
+"A Batalha Final: Luffy vs. Kaido"
+Luffy enfrenta o temível Yonko Kaido em uma batalha épica que determinará o destino de toda a Grande Rota.
+10
+05
+2023
+"Naruto Shippuden"
+500
+"O Fim de uma Jornada"
+Naruto finalmente alcança seu objetivo de se tornar Hokage e traz paz para o mundo ninja.
+25
+12
+2022
+"Attack on Titan"
+75
+"A Queda da Muralha"
+A última batalha entre a humanidade e os Titãs culmina em uma reviravolta chocante quando a Muralha Maria é destruída.
+05
+09
+2021
+"Dragon Ball Z"
+200
+"A Ascensão do Super Saiyajin 3"
+Goku alcança um novo nível de poder ao se transformar em Super Saiyajin 3 para enfrentar Majin Buu.
+15
+07
+1995
+"Death Note"
+37
+"O Duelo Final"
+Light e L se enfrentam em um confronto intelectual decisivo para determinar o destino dos Death Notes.
+30
+06
+2007
